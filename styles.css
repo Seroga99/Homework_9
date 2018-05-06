@@ -1,0 +1,288 @@
+@import url(reset.css);
+
+* {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 320px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.bg-img {
+	background-image: url(img/mobile.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+header {
+	padding-top: 20px;
+	margin-bottom: 30px;
+	font-family: 'Montserrat-Bold', sans-serif;
+}
+
+header ul {
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 120px;
+}
+
+header a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 10px;
+	border: 2px solid transparent;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	transition: border linear .2s;
+}
+
+.logo a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.content-img {
+	color: #fff;
+	text-align: center;
+}
+
+.content-img h2 {
+	font-size: 29px;
+	font-weight: 700;
+	line-height: 36px;
+	text-transform: uppercase;
+	font-family: 'Montserrat-Bold', sans-serif;
+	margin-bottom: 20px;
+}
+
+.content-img p {
+	font-family: 'Roboto-Light', sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+.content-img button {
+	height: 40px;
+	border: none;
+	font-size: 14px;
+	line-height: 17px;
+	font-family: 'Montserrat-Bold', sans-serif;
+	color: #fff;
+	background-color: #ff4e50;
+	border-radius: 30px;
+	margin-bottom: 130px;
+}
+
+.list-partners h2 {
+	display: inline-block;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	color: #333;
+	font-family: 'Montserrat-Bold', sans-serif;
+	margin-bottom: 20px;
+}
+
+
+.part-team {
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.part-team li {
+	width: 236px;
+}
+
+.part-team h3 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 17px;
+	color: #333;
+	font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.part-team p {
+	font-size: 14px;
+	line-height: 17px;
+	color: #666;
+	text-align: center;
+	font-family: 'Roboto-Light', sans-serif;
+	margin-bottom: 30px;
+}
+
+.portret {
+	position: relative;
+}
+
+
+.png {
+	width: 2.5rem;
+	height: 2.5rem;
+	position: absolute;
+	bottom: 0rem;
+	right: 3rem;
+	padding: 0.5rem;
+	border: 0.25rem solid #fff;
+	border-radius: 50%;
+}
+.png:hover {
+	transform: scale(1.2);
+	transition: border linear .2s;	
+}
+.png-1 {
+	background-color: #ff4e50;	
+}
+.png-2 {
+	background-color: #ffa507;
+}
+.png-3 {
+	background-color: #1cd7ad;
+}
+.png-4 {
+	background-color: #4e73db;
+}
+.list-partners button {
+	height: 40px;
+	font-size: 14px;
+	line-height: 17px;
+	font-family: 'Montserrat-Bold', sans-serif;
+	border: 1px solid #ff4e50;
+	border-radius: 30px;
+	background-color: transparent;
+	color: #ff4e50;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+.wrapper {
+	width: 768px;
+	margin: auto;
+}
+
+.bg-img {
+	background-image: url(img/tablet.jpg);
+	background-repeat: no-repeat;
+	padding-top: 40px;
+}
+
+
+header {
+	padding: 0 50px;
+	margin-bottom: 0px;
+}
+
+header ul {
+	margin-bottom: 0;
+}
+
+.logo {
+	margin-bottom: 150px;
+}
+
+.content-img h2 {
+	font-size: 52px;
+	line-height: 62px;
+	text-align: center;
+	margin: 0 auto 30px;
+}
+
+.content-img p {
+	font-size: 24px;
+	line-height: 29px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.content-img button {
+	width: 220px;
+	height: 40px;
+	margin-bottom: 230px;
+	
+}
+
+.list-partners {
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+
+.list-partners h2 {
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.part-team {
+	max-width: 532px;
+}
+}
+
+@media screen and (min-width: 1200px){
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.bg-img {
+	background-image: url(img/desktop.jpg);
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+header {
+	margin: 0 auto;
+	margin-bottom: 160px;
+}
+
+header ul {
+	margin-bottom: 0;
+}
+
+.content-img h2 {
+	font-size: 52px;
+	line-height: 62px;
+	margin: 0 auto 30px;
+}
+
+.content-img p {
+	font-size: 24px;
+	line-height: 29px;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.content-img button {
+	height: 40px;
+	margin-bottom: 220px;	
+}
+button:hover {
+	text-decoration: underline;
+}
+
+.list-partners {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.list-partners h2 {
+	margin-bottom: 40px;
+}
+
+.partners_item {
+	margin-bottom: 40px;
+}
+}
